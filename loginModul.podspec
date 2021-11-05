@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'loginModul'
-  s.version          = '1.0.4'
+  s.version          = '0.1.0'
   s.summary          = 'Test to make a pod library'
 
 # This description is used to generate tags and improve search results.
@@ -21,20 +21,20 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/NemoNight/loginModul'
+  s.homepage         = 'https://github.com/LeeSherlock/loginModul.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zhangcai' => 'zhangcai@polyv.net' }
-  s.source           = { :git => 'https://github.com/NemoNight/loginModul.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/LeeSherlock/loginModul.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'loginModul/Classes/**/*.{h,m}'
   
-   s.resource_bundles = {
-     'loginModul' => ['loginModul/Assets/**/*']
-   }
+   # s.resource_bundles = {
+   #   'loginModul' => ['loginModul/Assets/**/*']
+   # }
    
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
