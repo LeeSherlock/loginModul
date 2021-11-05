@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'loginModul_Example' do
+  pod 'loginModul', :path => '../'
+
+  target 'loginModul_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,27 @@
+{
+  "name": "loginModul",
+  "version": "0.1.0",
+  "summary": "A short description of loginModul.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhangcai/loginModul",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhangcai": "zhangcai@polyv.net"
+  },
+  "source": {
+    "git": "https://github.com/zhangcai/loginModul.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "loginModul/Classes/**/*",
+  "resource_bundles": {
+    "loginModul": [
+      "loginModul/Assets/**/*"
+    ]
+  }
+}
