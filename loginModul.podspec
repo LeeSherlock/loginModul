@@ -32,9 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'loginModul/Classes/**/*.{h,m}'
   
-   # s.resource_bundles = {
-   #   'loginModul' => ['loginModul/Assets/**/*']
-   # }
+   s.resource_bundles = {
+     'loginModul' => ['loginModul/Assets/**/*']
+   }
    
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
